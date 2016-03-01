@@ -1,0 +1,38 @@
+// sha256: ac908a1c4aad849aedd8f301f3d1924f6439c9b4707375ad9f272f146eabae84 *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_ore": [
+      {
+        "object": {
+          "type": "block",
+          "name": "ProjRed|Exploration:projectred.exploration.ore"
+        },
+        "weight": 1.5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "ProjRed|Exploration:projectred.exploration.ore",
+          "meta": 1
+        },
+        "weight": 1.5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "ProjRed|Exploration:projectred.exploration.ore",
+          "meta": 2
+        },
+        "weight": 1.5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "ProjRed|Exploration:projectred.exploration.ore",
+          "meta": 6
+        },
+        "weight": 10
+      }
+    ]
+  }
+}

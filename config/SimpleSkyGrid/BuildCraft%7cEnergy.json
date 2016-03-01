@@ -1,0 +1,23 @@
+// sha256: a4b8cc2e8bd1ea2969d63ec30f9e2d628fc03124f8d54b78e30d0aa41a3a11f5 *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_fluid": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "BuildCraft|Energy:blockOil",
+          "stasis": true
+        },
+        "weight": 25
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "BuildCraft|Energy:blockFuel",
+          "stasis": true
+        },
+        "weight": 2
+      }
+    ]
+  }
+}

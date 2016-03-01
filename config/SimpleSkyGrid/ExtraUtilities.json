@@ -1,0 +1,75 @@
+// sha256: 9c5700a2a47359672fa421bee6cef6e95b76555ed9acaa5d95b33ea15567cc7e *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "dim-100": {
+    "height": 256,
+    "generation": "deep_dark",
+    "unique_gen": "deep_dark"
+  },
+  "generation": {
+    "deep_dark": [
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "deep_dark_earth"
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_fluid"
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_loot"
+        },
+        "weight": 0.4
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_ore"
+        },
+        "weight": 40
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_rare"
+        },
+        "weight": 5
+      }
+    ],
+    "deep_dark_earth": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:stone"
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:cobblestone"
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:bedrock"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

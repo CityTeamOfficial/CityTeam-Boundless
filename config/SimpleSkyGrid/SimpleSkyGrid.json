@@ -1,0 +1,1570 @@
+// sha256: bd8d11b561f3161bc6edd68974ed8ca1030aa90fbb4d4e992c44d610eaed3e90 *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "dim0": {
+    "height": 128,
+    "spawn_height": 65,
+    "generation": "overworld",
+    "unique_gen": "overworld"
+  },
+  "dim-1": {
+    "height": 128,
+    "generation": "nether",
+    "unique_gen": "nether"
+  },
+  "dim1": {
+    "height": 128,
+    "generation": "end",
+    "unique_gen": "end"
+  },
+  "generation": {
+    "overworld": [
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_earth"
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_fluid"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_loot"
+        },
+        "weight": 1
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_ore"
+        },
+        "weight": 20
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_plant"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_tree"
+        },
+        "weight": 50
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_rare"
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "overworld_spawn"
+        },
+        "weight": 0.1
+      }
+    ],
+    "overworld_earth": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:stone"
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:grass"
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:dirt",
+          "meta": 2
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:sand"
+        },
+        "weight": 20
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:sand",
+          "meta": 1
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:sandstone"
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:clay"
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:hardened_clay"
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:mycelium"
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:gravel"
+        },
+        "weight": 20
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:snow"
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:ice"
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:packed_ice"
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:mossy_cobblestone"
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:obsidian"
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:monster_egg"
+        },
+        "weight": 1
+      }
+    ],
+    "overworld_fluid": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:water",
+          "stasis": true
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:lava",
+          "stasis": true
+        },
+        "weight": 20
+      }
+    ],
+    "overworld_loot": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:chest",
+          "loot": {
+            "type": "native",
+            "subtype": "chest",
+            "name": "dungeonChest"
+          }
+        },
+        "weight": 100
+      }
+    ],
+    "overworld_ore": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:coal_ore"
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:iron_ore"
+        },
+        "weight": 55
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:redstone_ore"
+        },
+        "weight": 15
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:gold_ore"
+        },
+        "weight": 6
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:lapis_ore"
+        },
+        "weight": 2.5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:diamond_ore"
+        },
+        "weight": 2
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:emerald_ore"
+        },
+        "weight": 1
+      }
+    ],
+    "overworld_plant": [
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:tallgrass",
+            "meta": 1
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 2
+          },
+          "0,2,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 8
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:dirt",
+            "meta": 2
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:tallgrass",
+            "meta": 2
+          }
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:dirt",
+            "meta": 2
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 3
+          },
+          "0,2,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 8
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:yellow_flower"
+          }
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower"
+          }
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 1
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 2
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 3
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 4
+          }
+        },
+        "weight": 2
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 5
+          }
+        },
+        "weight": 2
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 6
+          }
+        },
+        "weight": 2
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 7
+          }
+        },
+        "weight": 2
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_flower",
+            "meta": 8
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:double_plant"
+          },
+          "0,2,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 9
+          }
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 1
+          },
+          "0,2,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 9
+          }
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 4
+          },
+          "0,2,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 9
+          }
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 5
+          },
+          "0,2,0": {
+            "type": "block",
+            "name": "minecraft:double_plant",
+            "meta": 9
+          }
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:log",
+            "meta": 3
+          },
+          "1,0,0": {
+            "type": "block",
+            "name": "minecraft:cocoa",
+            "meta": 9
+          }
+        },
+        "weight": 1
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:mycelium"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_mushroom"
+          }
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:mycelium"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:brown_mushroom"
+          }
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:sand"
+          },
+          "1,0,0": {
+            "type": "block",
+            "name": "minecraft:water",
+            "stasis": true
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:reeds"
+          }
+        },
+        "weight": 20
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:water",
+            "stasis": true
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:waterlily"
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:sand"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:cactus"
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:web"
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:pumpkin"
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:melon_block"
+        },
+        "weight": 10
+      }
+    ],
+    "overworld_tree": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:log"
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:log",
+          "meta": 1
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:log",
+          "meta": 2
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:log",
+          "meta": 3
+        },
+        "weight": 25
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:log2"
+        },
+        "weight": 25
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:log2",
+          "meta": 1
+        },
+        "weight": 25
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:leaves",
+          "meta": 4
+        },
+        "weight": 50
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:leaves",
+          "meta": 5
+        },
+        "weight": 25
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:leaves",
+          "meta": 6
+        },
+        "weight": 25
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:leaves",
+          "meta": 7
+        },
+        "weight": 12.5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:leaves2",
+          "meta": 4
+        },
+        "weight": 12.5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:leaves2",
+          "meta": 5
+        },
+        "weight": 12.5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:sapling",
+            "stasis": true
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:sapling",
+            "meta": 1,
+            "stasis": true
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:sapling",
+            "meta": 2,
+            "stasis": true
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:sapling",
+            "meta": 3,
+            "stasis": true
+          }
+        },
+        "weight": 2.5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:sapling",
+            "meta": 4,
+            "stasis": true
+          }
+        },
+        "weight": 2.5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:sapling",
+            "meta": 5,
+            "stasis": true
+          }
+        },
+        "weight": 2.5
+      }
+    ],
+    "overworld_rare": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:piston"
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:sticky_piston"
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:bookshelf"
+        },
+        "weight": 50
+      }
+    ],
+    "overworld_spawn": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Creeper"
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Skeleton"
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Spider"
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Zombie"
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Slime"
+          }
+        },
+        "weight": 25
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "CaveSpider"
+          }
+        },
+        "weight": 25
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Enderman"
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Silverfish"
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Witch"
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Pig"
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Sheep"
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Cow"
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Chicken"
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Bat"
+          }
+        },
+        "weight": 3
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Squid"
+          }
+        },
+        "weight": 3
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Wolf"
+          }
+        },
+        "weight": 2
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Ozelot"
+          }
+        },
+        "weight": 2
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "EntityHorse"
+          }
+        },
+        "weight": 2
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "MushroomCow"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Villager"
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "nether": [
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_earth"
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_fluid"
+        },
+        "weight": 20
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_loot"
+        },
+        "weight": 1
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_ore"
+        },
+        "weight": 20
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_plant"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_tree"
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_rare"
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "nether_spawn"
+        },
+        "weight": 0.5
+      }
+    ],
+    "nether_earth": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:netherrack"
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:netherrack"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:fire",
+            "meta": 15
+          }
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:soul_sand"
+        },
+        "weight": 25
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:gravel"
+        },
+        "weight": 50
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:nether_brick"
+        },
+        "weight": 10
+      }
+    ],
+    "nether_loot": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "minecraft:chest",
+          "loot": {
+            "type": "native",
+            "subtype": "chest",
+            "name": "dungeonChest"
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "nether_fluid": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:lava",
+          "stasis": true
+        },
+        "weight": 100
+      }
+    ],
+    "nether_ore": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:glowstone"
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:quartz_ore"
+        },
+        "weight": 50
+      }
+    ],
+    "nether_plant": [
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:netherrack"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:brown_mushroom"
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:netherrack"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:red_mushroom"
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:soul_sand"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "minecraft:nether_wart",
+            "meta": 3
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "nether_tree": [],
+    "nether_rare": [],
+    "nether_spawn": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "PigZombie"
+          }
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Blaze"
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Skeleton"
+          }
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "LavaSlime"
+          }
+        },
+        "weight": 50
+      }
+    ],
+    "end": [
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_earth"
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_fluid"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_loot"
+        },
+        "weight": 1
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_ore"
+        },
+        "weight": 20
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_plant"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_tree"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_rare"
+        },
+        "weight": 5
+      },
+      {
+        "object": {
+          "type": "label",
+          "subtype": "absolute",
+          "name": "end_spawn"
+        },
+        "weight": 0.5
+      }
+    ],
+    "end_earth": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:end_stone"
+        },
+        "weight": 100
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:obsidian"
+        },
+        "weight": 25
+      }
+    ],
+    "end_loot": [],
+    "end_fluid": [],
+    "end_ore": [],
+    "end_plant": [],
+    "end_tree": [],
+    "end_rare": [],
+    "end_spawn": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Enderman"
+          }
+        },
+        "weight": 100
+      }
+    ]
+  },
+  "unique_gen": {
+    "overworld": [
+      {
+        "object": {
+          "type": "special",
+          "name": "end_portal",
+          "mean_filled_frames": 3
+        },
+        "count": {
+          "type": "uniform",
+          "min": 1,
+          "max": 3
+        },
+        "location": {
+          "type": "circle",
+          "axis": "y",
+          "radius": 1000,
+          "center": {
+            "x": 0,
+            "y": 4,
+            "z": 0
+          }
+        }
+      }
+    ],
+    "nether": [],
+    "end": [
+      {
+        "object": {
+          "type": "entity",
+          "name": "EnderDragon"
+        },
+        "count": 1,
+        "location": {
+          "type": "point",
+          "point": {
+            "x": 0,
+            "y": 124,
+            "z": 0
+          }
+        }
+      },
+      {
+        "object": {
+          "type": "special",
+          "name": "end_crystal"
+        },
+        "count": {
+          "type": "normal",
+          "mean": 25,
+          "standard_deviation": 3
+        },
+        "location": {
+          "type": "uniform",
+          "min_x": -100,
+          "max_x": 100,
+          "min_y": 124,
+          "max_y": 124,
+          "min_z": -100,
+          "max_z": 100
+        }
+      }
+    ]
+  }
+}

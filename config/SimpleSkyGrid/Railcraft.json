@@ -1,0 +1,33 @@
+// sha256: c8f1ecb619d086011ef3f9701b4c65db5e866f9c75082a475fe4599bb116d493 *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_earth": [
+      {
+        "object": {
+          "type": "block",
+          "name": "Railcraft:cube",
+          "meta": 6
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "Railcraft:cube",
+          "meta": 7
+        },
+        "weight": 10
+      }
+    ],
+    "nether_ore": [
+      {
+        "object": {
+          "type": "block",
+          "name": "Railcraft:ore",
+          "meta": 5
+        },
+        "weight": 0.1
+      }
+    ]
+  }
+}

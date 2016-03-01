@@ -1,0 +1,80 @@
+// sha256: 5a0e300379e96a40e96a7f8d713e27799b3fd73187267d99578e7d698b6495fa *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_fluid": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "MineFactoryReloaded:sewage.still",
+          "stasis": true
+        },
+        "weight": 20
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "MineFactoryReloaded:sludge.still",
+          "stasis": true
+        },
+        "weight": 20
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "MineFactoryReloaded:milk.still",
+          "stasis": true
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "MineFactoryReloaded:pinkslime.still",
+          "stasis": true
+        },
+        "weight": 0.001
+      }
+    ],
+    "overworld_rare": [
+      {
+        "object": {
+          "type": "block",
+          "name": "MineFactoryReloaded:machineblock"
+        },
+        "weight": 10
+      }
+    ],
+    "overworld_tree": [
+      {
+        "object": {
+          "type": "block",
+          "name": "MineFactoryReloaded:rubberwood.log",
+          "meta": 1
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "MineFactoryReloaded:rubberwood.leaves"
+        },
+        "weight": 5
+      },
+      {
+        "object" : {
+          "type": "complex",
+          "0,0,0": {
+            "type": "block",
+            "name": "minecraft:grass"
+          },
+          "0,1,0": {
+            "type": "block",
+            "name": "MineFactoryReloaded:rubberwood.sapling",
+            "stasis": true
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

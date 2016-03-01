@@ -1,0 +1,55 @@
+// sha256: b200e6d1cce49a8416a1c2408eb9f595f2aed34ea2b5e345e7d34e2b4e241045 *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_fluid": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "ThermalFoundation:FluidRedstone",
+          "stasis": true
+        },
+        "weight": 2
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "ThermalFoundation:FluidCoal",
+          "stasis": true
+        },
+        "weight": 2
+      },
+      {
+        "object" : {
+          "type": "block",
+          "name": "ThermalFoundation:FluidEnder",
+          "stasis": true
+        },
+        "weight": 0.2
+      }
+    ],
+    "overworld_spawn": [
+      {
+        "object": {
+          "type": "block",
+          "name": "minecraft:mob_spawner",
+          "nbt": {
+            "S_id": "MobSpawner",
+            "s_delay": 0,
+            "S_EntityId": "Blizz"
+          }
+        },
+        "weight": 10
+      }
+    ],
+    "nether_fluid": [
+      {
+        "object" : {
+          "type": "block",
+          "name": "ThermalFoundation:FluidGlowstone",
+          "stasis": true
+        },
+        "weight": 2
+      }
+    ]
+  }
+}

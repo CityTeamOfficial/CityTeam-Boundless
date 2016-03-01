@@ -1,0 +1,14 @@
+// sha256: b755fe9c2d112c2241064d65bc2a15018857ef50af32cd04f96a5564e676a476 *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_earth": [
+      {
+        "object": {
+          "type": "block",
+          "name": "exnihilo:dust"
+        },
+        "weight": 10
+      }
+    ]
+  }
+}

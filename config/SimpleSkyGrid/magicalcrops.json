@@ -1,0 +1,32 @@
+// sha256: edb59cbbbc6f1eb37d129858d3238c3f325944c00d2ce81e57e321ec584acabe *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_ore": [
+      {
+        "object": {
+          "type": "block",
+          "name": "magicalcrops:magicalcrops_MinicioOre"
+        },
+        "weight": 6
+      }
+    ],
+    "nether_ore": [
+      {
+        "object": {
+          "type": "block",
+          "name": "magicalcrops:magicalcrops_MinicioOreNether"
+        },
+        "weight": 6
+      }
+    ],
+    "end_ore": [
+      {
+        "object": {
+          "type": "block",
+          "name": "magicalcrops:magicalcrops_MinicioOreEnd"
+        },
+        "weight": 6
+      }
+    ]
+  }
+}

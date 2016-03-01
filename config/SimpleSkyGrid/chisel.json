@@ -1,0 +1,28 @@
+// sha256: 2ada95b645323dc845302729de969ba5502e89bdc19a52b3708b25253afbc21c *DO NOT ALTER OR REMOVE THIS LINE - YOUR CHANGES WILL BE LOST*
+{
+  "generation": {
+    "overworld_earth": [
+      {
+        "object": {
+          "type": "block",
+          "name": "chisel:andesite"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "chisel:diorite"
+        },
+        "weight": 10
+      },
+      {
+        "object": {
+          "type": "block",
+          "name": "chisel:granite"
+        },
+        "weight": 10
+      }
+    ]
+  }
+}
